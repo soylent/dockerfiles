@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker push konstantin/ansible:$ANSIBLE_VERSION-alpine$ALPINE_VERSION

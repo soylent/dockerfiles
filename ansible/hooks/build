@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker build . \
+  --tag konstantin/ansible:$ANSIBLE_VERSION-alpine$ALPINE_VERSION \
+  --build-arg ansible_version=$ANSIBLE_VERSION \
+  --build-arg alpine_version=$ALPINE_VERSION \
+  --build-arg build_date="$(date +%Y-%m-%d)"

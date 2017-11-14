@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker push konstantin/elastalert:$ELASTALERT_VERSION
